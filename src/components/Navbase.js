@@ -7,8 +7,8 @@ import Button from 'react-bootstrap/Button';
 const Navbase = () => {
 	return (
 		<Navbar expand="lg" bg="dark" data-bs-theme="dark">
-      <Container fluid>
-        <Navbar.Brand href="#">Landing Page - Yoosh</Navbar.Brand>
+      <Container>
+        <Navbar.Brand href="#">Yoosh</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
