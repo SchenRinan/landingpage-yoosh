@@ -3,8 +3,8 @@ import Manacard from '../../assets/manacard.webp';
 
 const Headerhp = () => {
     return (
-        <Container fluid className="py-3" //bg-dark 
-					style={{backgroundColor:'rgb(6,7,39)'}}
+        <Container fluid className="py-5" //bg-dark 
+					
 				>
             <Container className="rounded-5 text-white p-5"
 							style={{backgroundColor:'rgb(56,19,137)'}}
