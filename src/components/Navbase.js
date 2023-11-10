@@ -15,7 +15,7 @@ const Navbase = () => {
       <Container>
         <Navbar.Brand href="#">Yoosh</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className=''>
           <Nav className="me-auto">
             <Nav.Link href="#">Home</Nav.Link>
             <Nav.Link href="#link">Card</Nav.Link>
@@ -35,8 +35,10 @@ const Navbase = () => {
               </NavDropdown.Item>
             </NavDropdown> */}
           </Nav>
-					<Button variant="outline-info" className="rounded-pill"><i class="bi bi-apple"></i> Get it on App Store</Button>
-					<Button variant="outline-info" className="rounded-pill"><i class="bi bi-google-play"></i> Get it on Google Play</Button>
+					<div className=''>
+            <Button variant="outline-info" className="rounded-pill"><i class="bi bi-apple"></i> Get it on App Store</Button>
+            <Button variant="outline-info" className="rounded-pill"><i class="bi bi-google-play"></i> Get it on Google Play</Button>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>

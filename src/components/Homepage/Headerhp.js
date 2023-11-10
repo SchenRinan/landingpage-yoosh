@@ -1,4 +1,5 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Image, Row } from "react-bootstrap";
+import Manacard from '../../assets/manacard.webp';
 
 const Headerhp = () => {
     return (
@@ -9,25 +10,28 @@ const Headerhp = () => {
 							style={{backgroundColor:'rgb(56,19,137)'}}
             >
 							<Row>
-								<Col className="" sm={12} md={6}>
-									<h1
-										className="display-1 text-center text-lg-start"
-										style={{fontFamily:'Fantasy'}}
-										>
-											FINANCE FOR GAMERS
-									</h1>
-									<p className="fst-italic" style={{color:'rgb(148,197,174)'}}>
-										Debit Card & Checking Account
-									</p>
-									<p className="fw-light">
-										You slay. You achieve. You win – so should your bank account. Earn Rewards for Paying and Playing your favorite games
-									</p>
+								<Col className="d-flex align-items-center" sm={12} md={6}>
+									<div>
+										<h1
+											className="display-1 text-center text-lg-start"
+											style={{fontFamily:'Fantasy'}}
+											>
+												FINANCE FOR GAMERS
+										</h1>
+										<p className="fst-italic" style={{color:'rgb(148,197,174)'}}>
+											Debit Card & Checking Account
+										</p>
+										<p className="fw-semibold">
+											You slay. You achieve. You win – so should your bank account. Earn Rewards for Paying and Playing your favorite games
+										</p>
+										<div className="pb-5">
+											<Button variant="light" className="rounded-pill w-100 "><i class="bi bi-apple"></i> Get it on App Store</Button>
+											<Button variant="success" className="rounded-pill w-100 mt-3"><i class="bi bi-google-play"></i> Get it on Google Play</Button>
+										</div>
+									</div>
 								</Col>
 								<Col>
-								<div className="text-center text-lg-start">
-									{/* Content goes here */}
-									<p>This content is left-aligned on normal screens and centered on big scsssssssssssssreens.</p>
-								</div>
+									<Image fluid src={Manacard} alt="" />
 								</Col>
 							</Row>
             </Container>

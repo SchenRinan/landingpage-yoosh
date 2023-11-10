@@ -5,7 +5,7 @@ const Footer = () => {
 		<Container 
 			className="text-white p-5" //bg-dark for dark gray background
 			fluid
-			style={{backgroundColor:'rgb(6,7,39)'}}
+			style={{backgroundColor:'rgb(26,27,61)'}}
 			>
 			<Row>
 				<Col sm={12} className="d-lg-none" //shows only when mobile version
