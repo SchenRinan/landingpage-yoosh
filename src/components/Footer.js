@@ -2,10 +2,21 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 
 const Footer = () => {
 	return (
-		<Container className="bg-dark text-white p-5 fixed-bottom" fluid>
+		<Container 
+			className="text-white p-5" //bg-dark for dark gray background
+			fluid
+			style={{backgroundColor:'rgb(6,7,39)'}}
+			>
 			<Row>
+				<Col sm={12} className="d-lg-none" //shows only when mobile version
+				> 
+					<Button className="rounded-circle me-2" variant="secondary"><i class="bi bi-facebook"></i></Button>
+					<Button className="rounded-circle me-2" variant="secondary"><i class="bi bi-twitter-x"></i></Button>
+					<Button className="rounded-circle me-2" variant="secondary"><i class="bi bi-instagram"></i></Button>
+					<Button className="rounded-circle me-2" variant="secondary"><i class="bi bi-discord"></i></Button>
+				</Col>
 				<Col className="fs-3" sm={12} md={6}>Yoosh</Col>
-				<Col md={{ span: 3, offset: 3 }} sm={12}>
+				<Col sm={12} md={6} className="text-end d-none d-lg-block">
 					<Button className="rounded-circle me-2" variant="secondary"><i class="bi bi-facebook"></i></Button>
 					<Button className="rounded-circle me-2" variant="secondary"><i class="bi bi-twitter-x"></i></Button>
 					<Button className="rounded-circle me-2" variant="secondary"><i class="bi bi-instagram"></i></Button>

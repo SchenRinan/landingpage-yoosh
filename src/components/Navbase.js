@@ -6,7 +6,12 @@ import Button from 'react-bootstrap/Button';
 
 const Navbase = () => {
 	return (
-		<Navbar expand="lg" bg="dark" data-bs-theme="dark">
+		<Navbar
+      expand="lg"
+      // bg="dark" //remove if background color would be changed
+      data-bs-theme="dark"
+      style={{backgroundColor:'rgb(6,7,39)'}}
+      >
       <Container>
         <Navbar.Brand href="#">Yoosh</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
