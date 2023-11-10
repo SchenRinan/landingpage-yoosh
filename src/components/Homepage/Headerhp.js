@@ -16,12 +16,12 @@ const Headerhp = () => {
 										>
 											FINANCE FOR GAMERS
 									</h1>
-									<h4 className="fst-italic" style={{color:'rgb(148,197,174)'}}>
+									<p className="fst-italic" style={{color:'rgb(148,197,174)'}}>
 										Debit Card & Checking Account
-									</h4>
-									<h5 className="fw-light">
+									</p>
+									<p className="fw-light">
 										You slay. You achieve. You win – so should your bank account. Earn Rewards for Paying and Playing your favorite games
-									</h5>
+									</p>
 								</Col>
 								<Col>
 								<div className="text-center text-lg-start">
