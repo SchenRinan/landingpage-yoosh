@@ -10,7 +10,7 @@ const Main10hp = () => {
           <Col md={6} sm={12}>
 
 
-            <Card className="bg-dark text-white my-3" style={{maxHeight:'290px'}}>
+            {/* <Card className="bg-dark text-white my-3" >
               <Card.Img src={manaprocard} alt="Card image" />
               <Card.ImgOverlay className="d-flex align-items-end">
                 <Card.Text>
@@ -19,10 +19,12 @@ const Main10hp = () => {
                   </h3>
                 </Card.Text>
               </Card.ImgOverlay>
-            </Card>
+            </Card> */}
 
 
-            {/* <Image fluid src={manaprocard} className="py-3" style={{maxHeight:'350px'}}/> */}
+            <Image fluid src={manaprocard} className="py-3" style={{maxHeight:'350px'}}/>
+            <h2>$134.95/yr</h2>
+            <hr class="mt-2 mb-3"/>
             <Row>
               <Col xs={1}>
                 <h2><i class="bi bi-cart"></i></h2>
@@ -52,18 +54,18 @@ const Main10hp = () => {
             </Row>
             <Row>
               <Col xs={1}>
-                
               </Col>
               <Col xs={10}>
                 <h2 className="m-0">1500 points</h2>
                 <p>for setting up your Direct Deposit</p>
               </Col>
             </Row>
-            <hr class="mt-2 mb-3"/>
             <h2>$134.95/yr</h2>
+            <hr class="mt-2 mb-3"/>
           </Col>
+          
           <Col md={6} sm={12}>
-            <Card className="bg-dark text-white my-3" style={{maxHeight:'290px'}}>
+            {/* <Card className="bg-dark text-white my-3" >
                 <Card.Img src={manalitecard} alt="Card image" />
                 <Card.ImgOverlay className="d-flex align-items-end">
                   <Card.Text>
@@ -72,8 +74,10 @@ const Main10hp = () => {
                     </h3>
                   </Card.Text>
                 </Card.ImgOverlay>
-              </Card>
-            {/* <Image fluid src={manalitecard} className="py-3" style={{maxHeight:'350px'}}/> */}
+              </Card> */}
+            <Image fluid src={manalitecard} className="py-3" style={{maxHeight:'350px'}}/>
+            <h2>$34.95/yr</h2>
+            <hr class="mt-2 mb-3"/>
             <Row>
               <Col xs={1}>
                 <h2><i class="bi bi-cart"></i></h2>
