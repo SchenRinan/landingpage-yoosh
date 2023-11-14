@@ -24,10 +24,10 @@ const Main10hp = () => {
 
             <Image fluid src={manaprocard} className="py-3" style={{maxHeight:'350px'}}/>
             <h2>$134.95/yr</h2>
-            <hr class="mt-2 mb-3"/>
+            <hr className="mt-2 mb-3"/>
             <Row>
               <Col xs={1}>
-                <h2><i class="bi bi-cart"></i></h2>
+                <h2><i className="bi bi-cart"></i></h2>
               </Col>
               <Col xs={10}>
                 <h2 className="m-0">5x points</h2>
@@ -36,17 +36,17 @@ const Main10hp = () => {
             </Row>
             <Row>
               <Col xs={1}>
-                <h2><i class="bi bi-heart"></i></h2>
+                <h2><i className="bi bi-heart"></i></h2>
               </Col>
               <Col xs={10}>
                 <h2 className="m-0">3x points</h2>
                 <p>Points from select Gaming & Entertainment Subscriptions</p>
               </Col>
             </Row>
-            <hr class="mt-2 mb-3"/>
+            <hr className="mt-2 mb-3"/>
             <Row>
               <Col xs={1}>
-                <h2><i class="bi bi-star"></i></h2>
+                <h2><i className="bi bi-star"></i></h2>
               </Col>
               <Col xs={10}>
                 <h2 className="m-0">Welcome bonus</h2>
@@ -60,7 +60,7 @@ const Main10hp = () => {
                 <p>for setting up your Direct Deposit</p>
               </Col>
             </Row>
-            <hr class="mt-2 mb-3"/>
+            <hr className="mt-2 mb-3"/>
             <h2>$134.95/yr</h2>
           </Col>
           
@@ -77,10 +77,10 @@ const Main10hp = () => {
               </Card> */}
             <Image fluid src={manalitecard} className="py-3" style={{maxHeight:'350px'}}/>
             <h2>$34.95/yr</h2>
-            <hr class="mt-2 mb-3"/>
+            <hr className="mt-2 mb-3"/>
             <Row>
               <Col xs={1}>
-                <h2><i class="bi bi-cart"></i></h2>
+                <h2><i className="bi bi-cart"></i></h2>
               </Col>
               <Col xs={10}>
                 <h2 className="m-0">3x points</h2>
@@ -89,17 +89,17 @@ const Main10hp = () => {
             </Row>
             <Row>
               <Col xs={1}>
-                <h2><i class="bi bi-heart"></i></h2>
+                <h2><i className="bi bi-heart"></i></h2>
               </Col>
               <Col xs={10}>
                 <h2 className="m-0">2x points</h2>
                 <p>Points from select Gaming & Entertainment Subscriptions</p>
               </Col>
             </Row>
-            <hr class="mt-2 mb-3"/>
+            <hr className="mt-2 mb-3"/>
             <Row>
               <Col xs={1}>
-                <h2><i class="bi bi-star"></i></h2>
+                <h2><i className="bi bi-star"></i></h2>
               </Col>
               <Col xs={10}>
                 <h2 className="m-0">Welcome bonus</h2>
@@ -114,7 +114,7 @@ const Main10hp = () => {
                 <p>for setting up your Direct Deposit</p>
               </Col>
             </Row>
-            <hr class="mt-2 mb-3"/>
+            <hr className="mt-2 mb-3"/>
             <h2>$34.95/yr</h2>
           </Col>
         </Row>

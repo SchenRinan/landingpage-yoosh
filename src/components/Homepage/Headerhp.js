@@ -25,8 +25,8 @@ const Headerhp = () => {
 											You slay. You achieve. You win – so should your bank account. Earn Rewards for Paying and Playing your favorite games
 										</p>
 										<div className="pb-5">
-											<Button variant="light" className="rounded-pill w-100 "><i class="bi bi-apple"></i> Get it on App Store</Button>
-											<Button variant="success" className="rounded-pill w-100 mt-3"><i class="bi bi-google-play"></i> Get it on Google Play</Button>
+											<Button variant="light" className="rounded-pill w-100 "><i className="bi bi-apple"></i> Get it on App Store</Button>
+											<Button variant="success" className="rounded-pill w-100 mt-3"><i className="bi bi-google-play"></i> Get it on Google Play</Button>
 										</div>
 									</div>
 								</Col>

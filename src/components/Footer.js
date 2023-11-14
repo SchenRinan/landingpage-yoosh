@@ -10,17 +10,17 @@ const Footer = () => {
 			<Row>
 				<Col sm={12} className="d-lg-none" //shows only when mobile version
 				> 
-					<Button className="rounded-circle me-2" variant="secondary"><i class="bi bi-facebook"></i></Button>
-					<Button className="rounded-circle me-2" variant="secondary"><i class="bi bi-twitter-x"></i></Button>
-					<Button className="rounded-circle me-2" variant="secondary"><i class="bi bi-instagram"></i></Button>
-					<Button className="rounded-circle me-2" variant="secondary"><i class="bi bi-discord"></i></Button>
+					<Button className="rounded-circle me-2" variant="secondary"><i className="bi bi-facebook"></i></Button>
+					<Button className="rounded-circle me-2" variant="secondary"><i className="bi bi-twitter-x"></i></Button>
+					<Button className="rounded-circle me-2" variant="secondary"><i className="bi bi-instagram"></i></Button>
+					<Button className="rounded-circle me-2" variant="secondary"><i className="bi bi-discord"></i></Button>
 				</Col>
 				<Col className="fs-3" sm={12} md={6}>Yoosh</Col>
 				<Col sm={12} md={6} className="text-end d-none d-lg-block">
-					<Button className="rounded-circle me-2" variant="secondary"><i class="bi bi-facebook"></i></Button>
-					<Button className="rounded-circle me-2" variant="secondary"><i class="bi bi-twitter-x"></i></Button>
-					<Button className="rounded-circle me-2" variant="secondary"><i class="bi bi-instagram"></i></Button>
-					<Button className="rounded-circle me-2" variant="secondary"><i class="bi bi-discord"></i></Button>
+					<Button className="rounded-circle me-2" variant="secondary"><i className="bi bi-facebook"></i></Button>
+					<Button className="rounded-circle me-2" variant="secondary"><i className="bi bi-twitter-x"></i></Button>
+					<Button className="rounded-circle me-2" variant="secondary"><i className="bi bi-instagram"></i></Button>
+					<Button className="rounded-circle me-2" variant="secondary"><i className="bi bi-discord"></i></Button>
 				</Col>
 			</Row>
 			<Row>
@@ -36,7 +36,7 @@ const Footer = () => {
 				</Col>
 			</Row>
 			<Row className="pt-2">
-				<hr class="mt-2 mb-3"/>
+				<hr className="mt-2 mb-3"/>
 			</Row>
 			<Row className="pt-2 text-center">
 				<Col className="pb-2" style={{fontSize:14}}>Company Name Inc.</Col>

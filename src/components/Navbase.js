@@ -36,8 +36,8 @@ const Navbase = () => {
             </NavDropdown> */}
           </Nav>
 					<div className=''>
-            <Button variant="outline-info" className="rounded-pill"><i class="bi bi-apple"></i> Get it on App Store</Button>
-            <Button variant="outline-info" className="rounded-pill"><i class="bi bi-google-play"></i> Get it on Google Play</Button>
+            <Button variant="outline-info" className="rounded-pill"><i className="bi bi-apple"></i> Get it on App Store</Button>
+            <Button variant="outline-info" className="rounded-pill"><i className="bi bi-google-play"></i> Get it on Google Play</Button>
           </div>
         </Navbar.Collapse>
       </Container>
