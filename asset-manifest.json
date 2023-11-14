@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landingpage-yoosh/static/css/main.3ab27775.css",
-    "main.js": "/landingpage-yoosh/static/js/main.8392ddf0.js",
+    "main.js": "/landingpage-yoosh/static/js/main.00c22a46.js",
     "static/js/787.0800724c.chunk.js": "/landingpage-yoosh/static/js/787.0800724c.chunk.js",
     "static/media/mana-pro-card.webp": "/landingpage-yoosh/static/media/mana-pro-card.11dceedd365e505085c3.webp",
     "static/media/manacard.webp": "/landingpage-yoosh/static/media/manacard.ec28b0765d44b667c445.webp",
@@ -23,11 +23,11 @@
     "static/media/liefernand-logo.png": "/landingpage-yoosh/static/media/liefernand-logo.65fcb02b9b59e341089f.png",
     "index.html": "/landingpage-yoosh/index.html",
     "main.3ab27775.css.map": "/landingpage-yoosh/static/css/main.3ab27775.css.map",
-    "main.8392ddf0.js.map": "/landingpage-yoosh/static/js/main.8392ddf0.js.map",
+    "main.00c22a46.js.map": "/landingpage-yoosh/static/js/main.00c22a46.js.map",
     "787.0800724c.chunk.js.map": "/landingpage-yoosh/static/js/787.0800724c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ab27775.css",
-    "static/js/main.8392ddf0.js"
+    "static/js/main.00c22a46.js"
   ]
 }
