@@ -14,7 +14,7 @@ const logos = [adidas, vodafone, liefernando, samsung, hnm, superdry, mediamarkt
 const LogoCarousel = () => {
   return (
     <div className="carousel-container">
-      <Carousel className="custom-carousel" controls={false} indicators={false} style={{ width: '2500px' }}>
+      <Carousel className="custom-carousel" controls={false} indicators={false} style={{ width: '3000px' }}>
         <Carousel.Item>
           <div className="d-flex justify-content-around">
             {logos.map((logo, index) => (
