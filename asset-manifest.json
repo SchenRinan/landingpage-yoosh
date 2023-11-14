@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/landingpage-yoosh/static/css/main.3ab27775.css",
+    "main.js": "/landingpage-yoosh/static/js/main.fb2faf9d.js",
+    "static/js/787.0800724c.chunk.js": "/landingpage-yoosh/static/js/787.0800724c.chunk.js",
+    "static/media/mana-pro-card.webp": "/landingpage-yoosh/static/media/mana-pro-card.11dceedd365e505085c3.webp",
+    "static/media/manacard.webp": "/landingpage-yoosh/static/media/manacard.ec28b0765d44b667c445.webp",
+    "static/media/shop-page.webp": "/landingpage-yoosh/static/media/shop-page.49e66cde7f1b48f3fe69.webp",
+    "static/media/games-page.webp": "/landingpage-yoosh/static/media/games-page.f1e8d10368089d0eb823.webp",
+    "static/media/mana-lite-card.webp": "/landingpage-yoosh/static/media/mana-lite-card.73f496a11f7bce96f986.webp",
+    "static/media/bootstrap-icons.woff?": "/landingpage-yoosh/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
+    "static/media/h&m-logo.png": "/landingpage-yoosh/static/media/h&m-logo.4e04ddbe5b46ebf03974.png",
+    "static/media/manavisa.webp": "/landingpage-yoosh/static/media/manavisa.a1e43c49c6b7c2fa1d1e.webp",
+    "static/media/bootstrap-icons.woff2?": "/landingpage-yoosh/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
+    "static/media/samsung-logo.png": "/landingpage-yoosh/static/media/samsung-logo.371707d7e3a6e13074da.png",
+    "static/media/vodafone-logo.png": "/landingpage-yoosh/static/media/vodafone-logo.e4842427eee0502d1fd9.png",
+    "static/media/adidas_logo.png": "/landingpage-yoosh/static/media/adidas_logo.74367cd80a2a4de3fb79.png",
+    "static/media/mediamarkt-logo.webp": "/landingpage-yoosh/static/media/mediamarkt-logo.1fdf0bf39e25c8042cc5.webp",
+    "static/media/saturn-logo.png": "/landingpage-yoosh/static/media/saturn-logo.ad38fd4d341296517b8d.png",
+    "static/media/sd-logo-orange.png": "/landingpage-yoosh/static/media/sd-logo-orange.e833765521edaf316ce6.png",
+    "static/media/mvb-logo.png": "/landingpage-yoosh/static/media/mvb-logo.595934391b10ffaa33e2.png",
+    "static/media/visa-logo.png": "/landingpage-yoosh/static/media/visa-logo.5411bea186e8e2c4e9a2.png",
+    "static/media/liefernand-logo.png": "/landingpage-yoosh/static/media/liefernand-logo.65fcb02b9b59e341089f.png",
+    "index.html": "/landingpage-yoosh/index.html",
+    "main.3ab27775.css.map": "/landingpage-yoosh/static/css/main.3ab27775.css.map",
+    "main.fb2faf9d.js.map": "/landingpage-yoosh/static/js/main.fb2faf9d.js.map",
+    "787.0800724c.chunk.js.map": "/landingpage-yoosh/static/js/787.0800724c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ab27775.css",
+    "static/js/main.fb2faf9d.js"
+  ]
+}
