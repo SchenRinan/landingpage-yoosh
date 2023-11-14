@@ -1,0 +1,7 @@
+make a carousel of company brands after header: addidas, vodafone, liefernando, samsung, h&m, superdry, mediamarkt, saturn
+
+make github as host
+
+make json file for texts in website
+
+change app store into sign up for early access (email) open authentication (oauth)

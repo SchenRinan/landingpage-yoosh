@@ -5,7 +5,7 @@ import manalitecard from '../../assets/mana-lite-card.webp'
 const Main10hp = () => {
   return (
     <div>
-      <Container className="text-white">
+      <Container className="text-white py-5">
         <Row>
           <Col md={6} sm={12}>
 
@@ -60,8 +60,8 @@ const Main10hp = () => {
                 <p>for setting up your Direct Deposit</p>
               </Col>
             </Row>
-            <h2>$134.95/yr</h2>
             <hr class="mt-2 mb-3"/>
+            <h2>$134.95/yr</h2>
           </Col>
           
           <Col md={6} sm={12}>

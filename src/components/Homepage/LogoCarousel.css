@@ -1,0 +1,38 @@
+@keyframes moveRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.custom-carousel:hover .carousel-inner {
+  animation-play-state: paused; /* Pause the animation when hovered */
+}
+
+.carousel-container {
+  max-width: 100vw; /* Set a maximum width to avoid exceeding the screen width */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.custom-carousel .carousel-inner {
+  display: flex;
+  animation: moveRight 10s linear infinite; /* Adjust the duration and timing function as needed */
+}
+
+.custom-carousel .carousel-inner .carousel-item {
+  width: 100%; /* Make each slide take up the full width */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.custom-carousel .carousel-inner img {
+  width: 100%;
+  float: none;
+}
+
+.logo {
+   width: 10%; /* Set the desired width based on the number of logos you want to display simultaneously */
+  height: auto;
+  object-fit: contain; /*Preserve aspect ratio without stretching */
+}

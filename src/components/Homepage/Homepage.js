@@ -8,13 +8,15 @@ import Main7hp from "./Main7hp";
 import Main8hp from "./Main8hp";
 import Main9hp from "./Main9hp";
 import Main10hp from "./Main10hp";
+import Main11hp from "./Main11hp";
 import Mainhp from "./Mainhp";
-
+import LogoCarousel from "./LogoCarousel";
 
 const Homepage = () => {
 	return (
 		<div style={{backgroundColor:'rgb(6,7,39)'}}>
 			<Headerhp/>
+			<LogoCarousel />
 			<Mainhp />
 			<Main2hp />
 			<Main3hp />
@@ -25,6 +27,7 @@ const Homepage = () => {
 			<Main8hp />
 			<Main9hp />
 			<Main10hp />
+			<Main11hp />
 		</div>
 	);
 }
