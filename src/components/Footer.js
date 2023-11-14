@@ -32,7 +32,7 @@ const Footer = () => {
 			</Row>
 			<Row className="pt-4">
 				<Col style={{fontSize:10}}>
-					Terms and Conditions. Loorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis hendrerit porta. Donec pretium ligula sit amet ipsum maximus, eget commodo massa interdum. Pellentesque eget ex ut elit pulvinar dapibus. Nullam porttitor imperdiet nisl, et imperdiet urna eleifend a. Fusce feugiat laoreet enim id suscipit. Aenean vestibulum augue nisl, id malesuada sem mattis vel. Suspendisse ultrices dapibus nulla eget tempus.
+					Terms and Conditions. Lrem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis hendrerit porta. Donec pretium ligula sit amet ipsum maximus, eget commodo massa interdum. Pellentesque eget ex ut elit pulvinar dapibus. Nullam porttitor imperdiet nisl, et imperdiet urna eleifend a. Fusce feugiat laoreet enim id suscipit. Aenean vestibulum augue nisl, id malesuada sem mattis vel. Suspendisse ultrices dapibus nulla eget tempus.
 				</Col>
 			</Row>
 			<Row className="pt-2">
