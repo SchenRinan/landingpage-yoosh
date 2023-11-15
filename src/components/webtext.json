@@ -1,0 +1,92 @@
+{
+  "nav":{
+    "title":"Yoosh",
+    "home":"Home",
+    "card":"Card",
+    "gbenifits":"Game Benefits",
+    "brand":"Brands",
+    "about":"About",
+    "signup":"Sign-up/Log-in",
+    "button":"Signup for Early Access"
+  },
+  "header":{
+    "title":"FINANCE FOR GAMERS",
+    "footnote":"Debit Card & Checking Account",
+    "description":"You slay. You achieve. You win – so should your bank account. Earn Rewards for Paying and Playing your favorite games",
+    "button":"Signup for Early Access"
+  },
+  "cardintro":{
+    "heading":"Earn Mana on your everyday purchases with the Mana Visa® Debit Card",
+    "description":"Get up to 10x points on digital gaming purchases in the Mana Shop, up to 3x points on gaming and entertainment subscriptions and 1x on everything else.",
+    "link":"What purchases are eligible?"
+  },
+  "cardad":{
+    "perks":"Perks",
+    "perksdes":"Specifically selected for gamers",
+    "points":"Points",
+    "pointsdes":"for playing games & for all your purchases",
+    "rewards":"Rewards",
+    "rewardsdes":"in the shop that gamers care about"
+  },
+  "pointben":{
+    "first":"10x",
+    "firsthead":"Boosted rewards every month on your game purchase in Mana shop.",
+    "firstdes":"Get Mana points back on your first video game purchase every month",
+    "second":"5x",
+    "secondhead":"Points for digital gaming purchases in the Mana shop",
+    "seconddes":"Always get Mana points back on video games and gaming gift cards",
+    "third":"3x",
+    "thirdhead":"Points from select Gaming & Entertainment Subscriptions",
+    "thirddes":"Earn points for your gaming n’ chill kind of nights when linking your subscriptions",
+    "fourth":"1x",
+    "fourthhead":"Points on everything else.",
+    "fourthdes":"Up to 500 points per month, whether grabbing a coffee or seeing the latest movie, Mana has you covered."
+  },
+  "rewardintro":{
+    "heading":"Rewards you'll actually want. Get games, gift cards, hardware, and more in the Mana Shop.",
+    "description":"Use your Mana points to redeem or lower the price of items in our shop. It's all the stuff we know you'll like.",
+    "link":"What can I get in the Mana Shop?"
+  },
+  "bankbox":{
+    "heading":"No surprises, no gimmicks. Your money is kept safe with Mana's partners.",
+    "description":"No hidden fees. No game-playing. Your funds are FDIC insured through MVB Bank, N.A., Member FDIC.",
+    "mvbdes":"MVB Bank, N.A., Member FDIC is operating all the banking features and has your money insured",
+    "visades":"Visa provides the Mana debit card and all their perks."
+  },
+  "appintro":{
+    "heading":"The finance app that rewards you for playing video games.",
+    "description":"Connect your game accounts to Mana and play your way towards more rewards.",
+    "link":"Which games are currently supported?"
+  },
+  "planintro":{
+    "heading":"Choose your plan",
+    "description":"Exclusive perks, bonuses and the legendary Black Damascus steel card for only $134.95/yr. See the breakdowns of Mana Lite and Mana Pro and make your pick. Sign up here or straight from the app.",
+    "link":"Learn more about Mana Pro",
+    "pro":{
+      "cost":"$134.95/yr",
+      "shop":"5x points",
+      "shopdes":"Points from Digital Gaming Products in the Mana Shop",
+      "sub":"3x points",
+      "subdes":"Points from select Gaming & Entertainment Subscriptions",
+      "welcome":"Welcome bonus",
+      "welcomepoints":"1500 points",
+      "welcomedes":"for setting up your Direct Deposit"
+    },
+    "lite":{
+      "cost":"$34.95/yr",
+      "shop":"3x points",
+      "shopdes":"Points from Digital Gaming Products in the Mana Shop",
+      "sub":"2x points",
+      "subdes":"Points from select Gaming & Entertainment Subscriptions",
+      "welcome":"Welcome bonus",
+      "welcomepoints":"1500 points",
+      "welcomedes":"for setting up your Direct Deposit"
+    }
+  },
+  "sidequestbox":{
+    "title":"Mana takes finance to the Manaverse",
+    "link":"Learn more about Mana VR",
+    "description":"Tap into the power of your finances and control your Mana checking account in a fully immersive environment with Mana VR.",
+    "button":"Get it on Sidequest"
+  }
+}

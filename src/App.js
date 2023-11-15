@@ -1,6 +1,6 @@
 // import './App.css';
 import Footer from './components/Footer';
-import Homepage from './components/Homepage/Homepage';
+import AHomepage from './components/Homepage/AHomepage';
 import Navbase from './components/Navbase';
 
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Navbase />
-      <Homepage />
+      <AHomepage />
       <Footer />
     </div>
   );
