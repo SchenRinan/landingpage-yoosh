@@ -1,12 +1,12 @@
 import { Col, Container, Row } from "react-bootstrap";
 import text from '../webtext.json';
 
-const PointBenefits = () => {
+const PointBenefits = (props) => {
   return (
     <div>
       {/* card1 */}
       <Container fluid className="py-2">
-        <Container className="rounded-5 text-white p-4" style={{backgroundColor:'rgb(56,19,137)'}}>
+        <Container className="rounded-5 text-white p-4" style={{backgroundColor:props.color.box}}>
           <Row className="d-flex align-items-center" style={{minHeight:'150px'}}>
             <Col className="" md={3} sm={12}>
               <h1 className="text-center">
@@ -24,7 +24,7 @@ const PointBenefits = () => {
 
       {/* card2 */}
       <Container fluid className="py-2">
-        <Container className="rounded-5 text-white p-4" style={{backgroundColor:'rgb(56,19,137)'}}>
+        <Container className="rounded-5 text-white p-4" style={{backgroundColor:props.color.box}}>
           <Row className="d-flex align-items-center" style={{minHeight:'150px'}}>
             <Col className="" md={3} sm={12}>
               <h1 className="text-center">
@@ -42,7 +42,7 @@ const PointBenefits = () => {
 
       {/* card3 */}
       <Container fluid className="py-2">
-        <Container className="rounded-5 text-white p-4" style={{backgroundColor:'rgb(56,19,137)'}}>
+        <Container className="rounded-5 text-white p-4" style={{backgroundColor:props.color.box}}>
           <Row className="d-flex align-items-center" style={{minHeight:'150px'}}>
             <Col className="" md={3} sm={12}>
               <h1 className="text-center">
@@ -60,7 +60,7 @@ const PointBenefits = () => {
 
       {/* card4 */}
       <Container fluid className="py-2">
-        <Container className="rounded-5 text-white p-4" style={{backgroundColor:'rgb(56,19,137)'}}>
+        <Container className="rounded-5 text-white p-4" style={{backgroundColor:props.color.box}}>
           <Row className="d-flex align-items-center" style={{minHeight:'150px'}}>
             <Col className="" md={3} sm={12}>
               <h1 className="text-center">

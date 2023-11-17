@@ -3,11 +3,11 @@ import mvb from '../../assets/mvb-logo.png'
 import visa from '../../assets/visa-logo.png'
 import text from '../webtext.json';
 
-const BankBox = () => {
+const BankBox = (props) => {
   return (
     <div>
       <Container fluid className="py-5">
-        <Container className="rounded-5 text-white p-5 text-center" style={{backgroundColor:'rgb(56,19,137)'}}>
+        <Container className="rounded-5 text-white p-5 text-center" style={{backgroundColor:props.color.box}}>
           <Row className="">
             <Col className="">
               <h1>{text.bankbox.heading ? text.bankbox.heading : "No surprises, no gimmicks. Your money is kept safe with Mana's partners."}</h1>
@@ -16,7 +16,7 @@ const BankBox = () => {
           </Row>
           <Row className="justify-content-md-center">
             <Col md={4} sm={12}>
-              <Container className="rounded-5 text-white p-3 text-center" style={{backgroundColor:'rgb(104,55,208)',minHeight:'300px'}}>
+              <Container className="rounded-5 text-white p-3 text-center" style={{backgroundColor:props.color.tiny,minHeight:'300px'}}>
                 <Row>
                   <Col>
                   <Stack gap={3} >
@@ -30,7 +30,7 @@ const BankBox = () => {
               </Container>
             </Col>
             <Col md={4} sm={12} className="pt-4 pt-sm-0">
-              <Container className="rounded-5 text-white p-3 text-center" style={{backgroundColor:'rgb(104,55,208)',minHeight:'300px'}}>
+              <Container className="rounded-5 text-white p-3 text-center" style={{backgroundColor:props.color.tiny,minHeight:'300px'}}>
                 <Row>
                   <Col>
                   <Stack gap={3} >

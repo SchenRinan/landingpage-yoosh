@@ -2,12 +2,12 @@ import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import Manacard from '../../assets/manacard.webp';
 import text from '../webtext.json';
 
-const Headerhp = () => {
+const Headerhp = (props) => {
     return (
         <Container fluid className="py-5" //bg-dark 
 				>
             <Container className="rounded-5 text-white p-5"
-							style={{backgroundColor:'rgb(56,19,137)'}}
+							style={{backgroundColor:props.color.box}}
             >
 							<Row>
 								<Col className="d-flex align-items-center" sm={12} md={6}>

@@ -88,5 +88,15 @@
     "link":"Learn more about Mana VR",
     "description":"Tap into the power of your finances and control your Mana checking account in a fully immersive environment with Mana VR.",
     "button":"Get it on Sidequest"
+  },
+  "footer":{
+    "company":"Yoosh",
+    "companyname":"Company Name Inc.",
+    "companyaddress":"001 Address st.",
+    "companyplz":"01234 City, Country",
+    "tandc":"Terms and Conditions. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis hendrerit porta. Donec pretium ligula sit amet ipsum maximus, eget commodo massa interdum. Pellentesque eget ex ut elit pulvinar dapibus. Nullam porttitor imperdiet nisl, et imperdiet urna eleifend a. Fusce feugiat laoreet enim id suscipit. Aenean vestibulum augue nisl, id malesuada sem mattis vel. Suspendisse ultrices dapibus nulla eget tempus.",
+    "aboutus":"About Us",
+    "support":"Support",
+    "privacy":"Privacy Policy"
   }
 }

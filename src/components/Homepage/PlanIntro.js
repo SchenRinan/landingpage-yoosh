@@ -3,13 +3,13 @@ import manaprocard from '../../assets/mana-pro-card.webp'
 import manalitecard from '../../assets/mana-lite-card.webp'
 import text from '../webtext.json';
 
-const PlanIntro = () => {
+const PlanIntro = (props) => {
   return (
     <div>
       <Container className="text-white text-center py-5">
         <h1 className="p-2 px-md-5 pt-md-5">{text.planintro.heading ? text.planintro.heading : "Choose your plan"}</h1>
         <h6 className="p-2 px-md-5 col-md-8 m-auto">{text.planintro.description ? text.planintro.description : "Exclusive perks, bonuses and the legendary Black Damascus steel card for only $134.95/yr. See the breakdowns of Mana Lite and Mana Pro and make your pick. Sign up here or straight from the app."}</h6>
-        <h6 className="p-2 px-md-5 mb-0">{text.planintro.link ? text.planintro.link : "Learn more about Mana Pro"}</h6>
+        <h6 className="p-2 px-md-5 mb-0" style={{color:props.color.text}}>{text.planintro.link ? text.planintro.link : "Learn more about Mana Pro"}</h6>
       </Container>
       <Container className="text-white py-5">
         <Row>

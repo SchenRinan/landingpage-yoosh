@@ -5,16 +5,15 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import text from './webtext.json';
 
-const Navbase = () => {
+const Navbase = props => {
 	return (
 		<Navbar
       expand="lg"
       // bg="dark" //remove if background color would be changed
       data-bs-theme="dark"
-      style={{backgroundColor:'rgb(6,7,39)'}}
-      >
+    >
       <Container>
-        <Navbar.Brand href="#">{text.nav.title}</Navbar.Brand>
+        <Navbar.Brand href="#" style={{color:props.color.text}}>{text.nav.title}</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className=''>
           <Nav className="me-auto">
