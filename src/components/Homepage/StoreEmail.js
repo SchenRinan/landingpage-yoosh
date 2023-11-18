@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Form } from "react-bootstrap";
+import { Button, Col, Container, Form } from "react-bootstrap";
 
 const StoreEmail = () => {
   const [email, setEmail] = useState("");
@@ -26,35 +26,34 @@ const StoreEmail = () => {
   };
 
   return (
-    <div>
-      <Form onSubmit={handleSubmit}>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control
-            type="email"
-            placeholder="Enter email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-          </Form.Text>
-        </Form.Group>
-
-        {/* <Form.Group className="mb-3" controlId="formBasicName">
-          <Form.Label>Name</Form.Label>
-          <Form.Control
-            type="text"
-            placeholder="Name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </Form.Group> */}
-
-        <Button variant="primary" type="submit">
-          Subscribe
-        </Button>
-      </Form>
+    <div id='scroll-signup'>
+      <Container className="text-white text-center">
+        <h1 className="p-2 px-md-5 pt-md-5">Ready?</h1>
+        <h6 className="p-2 px-md-5 col-md-8 m-auto">Reserve your slot by signing up with your email.</h6>
+      </Container>
+      <Container>
+        <Form onSubmit={handleSubmit}>
+          <Form.Group className="mb-3" controlId="formBasicEmail">
+            {/* <Form.Label>Email address</Form.Label> */}
+            <Col sm={12} md={6} className="mx-auto">
+              <Form.Control
+                type="email"
+                placeholder="Enter email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+            </Col>
+            {/* <Form.Text className="text-muted">
+              We'll never share your email with anyone else.
+            </Form.Text> */}
+          </Form.Group>
+          <div className="text-center">
+            <Button variant="primary" type="submit">
+              Subscribe
+            </Button>
+          </div>
+        </Form>
+      </Container>
     </div>
   );
 };

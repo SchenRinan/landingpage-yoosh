@@ -5,7 +5,7 @@ import text from '../webtext.json';
 
 const PlanIntro = (props) => {
   return (
-    <div>
+    <div id='scroll-card'>
       <Container className="text-white text-center py-5">
         <h1 className="p-2 px-md-5 pt-md-5">{text.planintro.heading ? text.planintro.heading : "Choose your plan"}</h1>
         <h6 className="p-2 px-md-5 col-md-8 m-auto">{text.planintro.description ? text.planintro.description : "Exclusive perks, bonuses and the legendary Black Damascus steel card for only $134.95/yr. See the breakdowns of Mana Lite and Mana Pro and make your pick. Sign up here or straight from the app."}</h6>

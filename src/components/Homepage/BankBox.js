@@ -1,5 +1,5 @@
 import { Col, Container, Image, Row, Stack } from "react-bootstrap";
-import mvb from '../../assets/mvb-logo.png'
+import solaris from '../../assets/Logo-Solaris.png'
 import visa from '../../assets/visa-logo.png'
 import text from '../webtext.json';
 
@@ -21,7 +21,7 @@ const BankBox = (props) => {
                   <Col>
                   <Stack gap={3} >
                     <div className="d-flex align-items-end"  style={{height:'150px'}}>
-                      <Image src={mvb} className='col-5 mx-auto' fluid />
+                      <Image src={solaris} className='col-5 mx-auto' fluid />
                     </div>
                     <p>{text.bankbox.mvbdes ? text.bankbox.mvbdes : "MVB Bank, N.A., Member FDIC is operating all the banking features and has your money insured"}</p>
                   </Stack>

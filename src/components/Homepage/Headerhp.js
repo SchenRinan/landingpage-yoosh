@@ -27,7 +27,7 @@ const Headerhp = (props) => {
 										<div className="pb-5">
 											{/* <Button variant="light" className="rounded-pill w-100 "><i className="bi bi-apple"></i> Get it on App Store</Button>
 											<Button variant="success" className="rounded-pill w-100 mt-3"><i className="bi bi-google-play"></i> Get it on Google Play</Button> */}
-											<Button variant="light" className="rounded-pill w-100 mt-5">{text.header.button}</Button>
+											<Button variant="light" className="rounded-pill w-100 mt-5" onClick={props.handleShow}>{text.header.button}</Button>
 										</div>
 									</div>
 								</Col>

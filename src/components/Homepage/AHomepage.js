@@ -6,13 +6,13 @@ import BankBox from "./BankBox";
 import AppIntro from "./AppIntro";
 import PlanIntro from "./PlanIntro";
 import SidequestBox from "./SidequestBox";
-import CardIntro from "./CardIntro";
 import LogoCarousel from "./LogoCarousel";
 import StoreEmail from "./StoreEmail";
 import Temporary from "./Temporary";
 import Navbase from "../Navbase";
 import Footer from "../Footer";
 import { useState } from "react";
+import SingupModal from "./SingupModal";
 
 const AHomepage = () => {
 	const [color,setColor] = useState({background:'rgb(6,7,39)', box:'rgb(56,19,137)', tiny:'rgb(104,55,208)',text:'rgb(154,106,255)'});
@@ -30,13 +30,17 @@ const AHomepage = () => {
 		if(item === 'redtext')setColor({...color, text:'#FF0000'});
 		if(item === 'blacktext')setColor({...color, text:'#CCCCCC'});
 	}
+	const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
 	return (
 		<div style={{backgroundColor:color.background}}>
 			<Temporary colorChange={colorChange} />
-			<Navbase color={color} />
-			<Headerhp color={color}/>
+			<Navbase color={color} handleShow={handleShow} />
+			<SingupModal show={show} handleClose={handleClose} handleShow={handleShow} />
+			<Headerhp color={color} handleShow={handleShow} />
 			<LogoCarousel />
-			<CardIntro color={color} />
 			<CardAd color={color}/>
 			<PointBenefits color={color} />
 			<RewardIntro color={color} />

@@ -1,10 +1,15 @@
 import { Col, Container, Image, Row } from "react-bootstrap";
-import Manavisa from '../../assets/manavisa.webp';
+import cardtemplate from '../../assets/card-template.png';
 import text from '../webtext.json';
 
 const CardAd = (props) => {
   return (
-    <div>
+    <div id=''>
+      <Container className="text-white text-center py-5">
+        <h1 className="p-2 px-md-5 pt-md-5">{text.cardintro.heading}</h1>
+        <h6 className="p-2 px-md-5 col-md-8 m-auto">{text.cardintro.description}</h6>
+        <h6 className="p-2 px-md-5 mb-0" style={{color:props.color.text}}>{text.cardintro.link}</h6>
+      </Container>
       <Container style={{color:'white'}} className="py-5">
         <Row className="d-flex align-items-center">
           <Col sm={12} md={{span:4,order:'first'}} className="text-center text-lg-start">
@@ -12,7 +17,7 @@ const CardAd = (props) => {
             <p>{text.cardad.perksdes}</p>
           </Col>
           <Col md={{span:4, order:6}} xs={{span:12, order:'first'}} className="text-center text-lg-start">
-            <Image fluid src={Manavisa}/>
+            <Image fluid src={cardtemplate}/>
           </Col>
           <Col sm={12} md={4} className="text-center text-lg-start">
             <h4 className="fst-italic" style={{color:props.color.text}}>{text.cardad.points}</h4>
