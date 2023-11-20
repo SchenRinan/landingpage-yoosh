@@ -5,3 +5,16 @@ make github as host
 make json file for texts in website
 
 change app store into sign up for early access (email) open authentication (oauth)
+
+color theme: remove the whole purple element, perhaps: one in dark red, dark blue, black
+
+add a scroll down when clicking the nav components
+
+fix the sign up at the bottom
+
+put in solaris in exchange to mvb
+
+popup when clicking signup - write code for googlesheets
+-
+
+write an alert/confirmation the email is sent
