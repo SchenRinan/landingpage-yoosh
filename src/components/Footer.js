@@ -32,11 +32,7 @@ const Footer = (props) => {
 			</Row>
 			<Row className="pt-4">
 				<Col style={{fontSize:10}}>
-<<<<<<< HEAD
-					Terms and Conditions. Lrem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis hendrerit porta. Donec pretium ligula sit amet ipsum maximus, eget commodo massa interdum. Pellentesque eget ex ut elit pulvinar dapibus. Nullam porttitor imperdiet nisl, et imperdiet urna eleifend a. Fusce feugiat laoreet enim id suscipit. Aenean vestibulum augue nisl, id malesuada sem mattis vel. Suspendisse ultrices dapibus nulla eget tempus.
-=======
 					{text.footer.tandc ? text.footer.tandc : "Terms and Conditions. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis hendrerit porta. Donec pretium ligula sit amet ipsum maximus, eget commodo massa interdum. Pellentesque eget ex ut elit pulvinar dapibus. Nullam porttitor imperdiet nisl, et imperdiet urna eleifend a. Fusce feugiat laoreet enim id suscipit. Aenean vestibulum augue nisl, id malesuada sem mattis vel. Suspendisse ultrices dapibus nulla eget tempus."}
->>>>>>> 561cea5afa6921f89b382cf8befabb0630ae2cd7
 				</Col>
 			</Row>
 			<Row className="pt-2">
