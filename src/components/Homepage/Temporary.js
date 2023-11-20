@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 const Temporary = (props) => {
   return (
     <div>
-      a
+      
       <Button onClick={()=>props.colorChange('manabg')}>ManaBG</Button>
       <Button onClick={()=>props.colorChange('redbg')}>RedBG</Button>
       <Button onClick={()=>props.colorChange('greenbg')}>GreenBG</Button>
