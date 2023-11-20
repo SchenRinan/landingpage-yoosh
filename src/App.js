@@ -1,15 +1,15 @@
 // import './App.css';
-import Footer from './components/Footer';
-import Homepage from './components/Homepage/Homepage';
-import Navbase from './components/Navbase';
+//import Footer from './components/Footer';
+import AHomepage from './components/Homepage/AHomepage';
+//import Navbase from './components/Navbase';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbase />
-      <Homepage />
-      <Footer />
+      
+      <AHomepage />
+      
     </div>
   );
 }
